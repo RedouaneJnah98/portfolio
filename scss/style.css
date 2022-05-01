@@ -160,9 +160,6 @@ nav .resume-btn:hover {
   padding: 3rem 0 0 3rem;
 }
 .box-bg .project-info {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
   padding-right: 3rem;
   margin-bottom: 2rem;
 }
