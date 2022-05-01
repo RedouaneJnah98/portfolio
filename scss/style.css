@@ -131,6 +131,18 @@ nav .resume-btn:hover {
 .section-bg {
   background-color: #F2F3FC;
 }
+.section-bg .icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  place-content: center;
+  flex-wrap: wrap;
+}
+.section-bg .icons img {
+  width: 2.5rem;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
 
 .skills-p {
   line-height: 2;

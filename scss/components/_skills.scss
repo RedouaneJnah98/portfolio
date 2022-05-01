@@ -2,6 +2,20 @@
 
 .section-bg {
   background-color: $second-clr;
+
+  .icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    place-content: center;
+    flex-wrap: wrap;
+
+    img {
+      width: 2.5rem;
+      margin-right: 1rem;
+      margin-top: 1.5rem;
+    }
+  }
 }
 
 .skills {
