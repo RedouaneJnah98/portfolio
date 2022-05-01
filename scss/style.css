@@ -4,6 +4,7 @@
 /* Global Variables */
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
 nav {
   margin-top: 1.2rem;
 }
@@ -124,6 +125,16 @@ nav .resume-btn:hover {
   font-size: 0.9rem;
   color: #0F1C64;
   line-height: 1.8;
+}
+
+/* Global Variables */
+.section-bg {
+  background-color: #F2F3FC;
+}
+
+.skills-p {
+  line-height: 2;
+  color: #0F1C64;
 }
 
 * {

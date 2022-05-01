@@ -1,0 +1,13 @@
+@import "config";
+
+.section-bg {
+  background-color: $second-clr;
+}
+
+.skills {
+  &-p {
+    line-height: 2;
+    color: $text-clr;
+  }
+}
+
