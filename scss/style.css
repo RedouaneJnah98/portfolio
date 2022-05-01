@@ -145,12 +145,26 @@ nav .resume-btn:hover {
   margin-right: 1rem;
   margin-top: 1.5rem;
 }
+.section-bg .skills-img-container {
+  max-width: 500px;
+}
+.section-bg .skills-img-container .bg-3 {
+  width: 100%;
+}
 
+.skills {
+  width: 60%;
+}
 .skills-p {
   line-height: 2;
   color: #0F1C64;
 }
 
+@media (max-width: 576px) {
+  .skills {
+    width: 100%;
+  }
+}
 /* Global Variables */
 .box-bg {
   background-color: #F2F3FC;
