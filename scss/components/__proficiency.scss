@@ -1,0 +1,68 @@
+@import "config";
+
+.section {
+  .title {
+    color: $dark-blue;
+    font-weight: 600;
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 2.188rem;
+      height: .375rem;
+      background-color: $main-clr;
+      border-radius: 10px;
+    }
+  }
+
+  // cards
+  .cards-container {
+    margin-top: 4rem;
+
+    .main-card {
+      box-shadow: 2px 46px 82px -15px rgba(0, 0, 0, 0.1);
+      position: relative;
+
+      &:before {
+        content: url("../../assets/cards/left-dots.svg");
+        position: absolute;
+        top: -1.5rem;
+        left: -1.5rem;
+      }
+
+      &:after {
+        content: url("../../assets/cards/bottom-right-dots.svg");
+        position: absolute;
+        bottom: -1.5rem;
+        right: -1.5rem;
+      }
+    }
+
+    .proficiency-card {
+      max-width: 20rem;
+      width: 100%;
+      display: grid;
+      place-items: center;
+      border-radius: $button-radius;
+      padding: 2rem;
+
+      img {
+        max-width: 180px;
+        width: 100%;
+      }
+
+      h4 {
+        font-weight: 600;
+        color: $main-clr;
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+        color: $text-clr;
+        line-height: 1.8;
+      }
+    }
+  }
+}

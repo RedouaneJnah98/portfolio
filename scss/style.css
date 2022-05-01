@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
+/* Global Variables */
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
+/* Global Variables */
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
+nav {
+  margin-top: 1.2rem;
+}
+nav .logo {
+  position: relative;
+}
+nav .logo .circle {
+  width: 350px;
+  height: 350px;
+  background-color: #F2F3FC;
+  border-radius: 50%;
+  position: absolute;
+  top: -12rem;
+  left: -10rem;
+  z-index: -5;
+}
+nav .nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+nav .nav-links li a {
+  color: #1538C5;
+}
+nav .nav-links li a:hover {
+  color: #0b5ed7;
+  text-decoration: underline;
+}
+nav .resume-btn {
+  background-color: #1538C5;
+  color: #fff;
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0.5rem 1.5rem;
+}
+nav .resume-btn:hover {
+  background-color: #0b5ed7;
+  transition: 0.4s all ease;
+}
+
+/* Global Variables */
+.hero {
+  margin-top: 10vh;
+}
+.hero .bio {
+  max-width: 600px;
+  width: 100%;
+}
+.hero .bio h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1538C5;
+  margin-bottom: 1rem;
+}
+.hero .bio p {
+  color: #0F1C64;
+  font-size: 1.2rem;
+}
+.hero .bio .social-links {
+  margin-top: 2rem;
+}
+.hero .bio .social-links a svg {
+  color: #1538C5;
+  margin-right: 1rem;
+}
+
+/* Global Variables */
+.section .title {
+  color: #0D004D;
+  font-weight: 600;
+  position: relative;
+}
+.section .title::after {
+  content: "";
+  display: block;
+  width: 2.188rem;
+  height: 0.375rem;
+  background-color: #1538C5;
+  border-radius: 10px;
+}
+.section .cards-container {
+  margin-top: 4rem;
+}
+.section .cards-container .main-card {
+  box-shadow: 2px 46px 82px -15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.section .cards-container .main-card:before {
+  content: url("../../assets/cards/left-dots.svg");
+  position: absolute;
+  top: -1.5rem;
+  left: -1.5rem;
+}
+.section .cards-container .main-card:after {
+  content: url("../../assets/cards/bottom-right-dots.svg");
+  position: absolute;
+  bottom: -1.5rem;
+  right: -1.5rem;
+}
+.section .cards-container .proficiency-card {
+  max-width: 20rem;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  border-radius: 0.4rem;
+  padding: 2rem;
+}
+.section .cards-container .proficiency-card img {
+  max-width: 180px;
+  width: 100%;
+}
+.section .cards-container .proficiency-card h4 {
+  font-weight: 600;
+  color: #1538C5;
+  margin-bottom: 1.5rem;
+}
+.section .cards-container .proficiency-card p {
+  font-size: 0.9rem;
+  color: #0F1C64;
+  line-height: 1.8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #0F1C64;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+/*# sourceMappingURL=style.css.map */

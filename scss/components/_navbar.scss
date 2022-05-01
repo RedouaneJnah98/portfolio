@@ -1,0 +1,58 @@
+@import "config";
+
+nav {
+  margin-top: 1.2rem;
+
+  .logo {
+    position: relative;
+
+    img {
+      //position: absolute;
+      //z-index: 2;
+    }
+
+    .circle {
+      width: 350px;
+      height: 350px;
+      background-color: $second-clr;
+      border-radius: $half-radius;
+      position: absolute;
+      top: -12rem;
+      left: -10rem;
+      z-index: -5;
+    }
+  }
+
+  // navbar center
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+    li a {
+      color: $main-clr;
+
+      &:hover {
+        color: $hover-clr;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // Resume Button
+  .resume-btn {
+    background-color: $main-clr;
+    color: $white-clr;
+    border-radius: $button-radius;
+    border: none;
+    padding: 0.5rem 1.5rem;
+
+    &:hover {
+      background-color: $hover-clr;
+      transition: 0.4s all ease;
+    }
+  }
+}
+
+
+

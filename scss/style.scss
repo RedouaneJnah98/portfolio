@@ -1,0 +1,29 @@
+@import "components/config";
+@import "components/navbar";
+@import "components/hero";
+@import "components/_proficiency";
+
+// Global styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: $text-clr;
+  background-color: $white-clr;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.section {
+  padding: 5rem 0;
+}

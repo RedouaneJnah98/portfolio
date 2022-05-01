@@ -1,0 +1,31 @@
+@import "config";
+
+.hero {
+  margin-top: 10vh;
+
+  .bio {
+    max-width: 600px;
+    width: 100%;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: $main-clr;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: $text-clr;
+      font-size: 1.2rem;
+    }
+
+    .social-links {
+      margin-top: 2rem;
+
+      a svg {
+        color: $main-clr;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
